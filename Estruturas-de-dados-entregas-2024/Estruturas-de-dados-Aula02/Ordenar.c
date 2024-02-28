@@ -16,14 +16,19 @@ void sortTest(int arr[], int n) {
 
 int main(void) {
 
-  int tab[5] = {42, 105, 10, 50, 01};
-  int tamanho = sizeof(tab) / sizeof(tab[0]);
+  int numeroInteiros[5];
+  int tamanho = sizeof(numeroInteiros) / sizeof(numeroInteiros[0]);
 
-  sortTest(tab, tamanho);
+  for (int i = 0; i < 5; i++){
+    printf("Coloque números de ordem aleatória: \n" );
+    scanf("%d", &numeroInteiros[i]);
+  }
 
-  printf("Array em ordem Ascendente: \n");
+  sortTest(numeroInteiros, tamanho);
+
+  printf("Array em ordem Crescente: \n");
   for (int i = 0; i < tamanho; i++){
-    printf("%d ", tab[i]);
+    printf("%d ", numeroInteiros[i]);
   }
   printf("\n");
 
