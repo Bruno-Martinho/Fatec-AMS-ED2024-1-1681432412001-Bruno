@@ -23,9 +23,9 @@ int main(void) {
   
   applyDiscount(&precocomDesconto, desconto);
 
-  printf("O preço do produto sem desconto: %d\n", precosemDesconto);
-  printf("O preço do produto com desconto: %d\n", precocomDesconto);
-  printf("Valor do desconto aplicado: %.2f%%\n", desconto);
+  printf("O preço do produto sem desconto: %d R$\n", precosemDesconto);
+  printf("O preço do produto com desconto: %d R$\n", precocomDesconto);
+  printf("Valor do desconto aplicado: %.f%%\n", desconto);
   
   return 0;
 }
