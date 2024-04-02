@@ -1,3 +1,11 @@
+/*------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
+/*                         Bruno Leonardo Martinho                                 */
+/*             Paradigama: - programação Estruturada                      */
+/*                                                                        */
+/*                                                         Data:02/04/2024*/
+/*-------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h> // Para a função malloc
 
