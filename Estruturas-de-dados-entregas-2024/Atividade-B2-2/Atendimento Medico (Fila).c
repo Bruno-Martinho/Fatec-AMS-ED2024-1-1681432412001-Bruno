@@ -1,6 +1,9 @@
 /*------------------------------------------------------------------------*/
 /*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
 /*                         Bruno Leonardo Martinho                        */
+/*                            Prof Veríssimo                              */
+/*                            Atividade-B2-2                              */
+/*         Objetivo: Implemementar fila de atendimento - Hospital         */
 /*                                                                        */
 /*                              Data:13/05/2024                           */
 /*------------------------------------------------------------------------*/
@@ -23,6 +26,7 @@ typedef struct {
     time_t hora_chegada;
     time_t hora_atendimento_inicio;
     time_t hora_atendimento_fim;
+    int consultorio;
 } Paciente;
 
 
@@ -90,6 +94,7 @@ void exibirPaciente(Paciente paciente) {
     printf("Nome: %s\n", paciente.nome);
     printf("Idade: %d\n", paciente.idade);
     printf("Motivo da consulta: %s\n", paciente.motivo);
+    printf("Consultório: %d\n", paciente.consultorio); 
     printf("Hora de chegada: %s\n", ctime(&paciente.hora_chegada));
 }
 
@@ -110,6 +115,38 @@ void visualizarFila(Fila* fila) {
         i++;
     }
 }
+
+
+void atenderPaciente(Fila* filaNormal, Fila* filaPrioritaria, Fila* filaUrgente, Fila* filaHistorico) {
+    Paciente pacienteAtendido;
+
+
+    if (!filaVazia(filaUrgente)) {
+        pacienteAtendido = removerPaciente(filaUrgente);
+        printf("Chamando paciente %s da fila urgente para o consultório %d.\n", pacienteAtendido.nome, pacienteAtendido.consultorio);
+    }
+
+    else if (!filaVazia(filaPrioritaria)) {
+        pacienteAtendido = removerPaciente(filaPrioritaria);
+        printf("Chamando paciente %s da fila prioritária para o consultório %d.\n", pacienteAtendido.nome, pacienteAtendido.consultorio);
+    }
+
+    else if (!filaVazia(filaNormal)) {
+        pacienteAtendido = removerPaciente(filaNormal);
+        printf("Chamando paciente %s da fila normal para o consultório %d.\n", pacienteAtendido.nome, pacienteAtendido.consultorio);
+    } else {
+        printf("Não há pacientes para atender.\n");
+        return;
+    }
+
+    time(&pacienteAtendido.hora_atendimento_inicio);
+    time(&pacienteAtendido.hora_atendimento_fim);
+
+        adicionarPaciente(filaHistorico, pacienteAtendido);
+
+    printf("Paciente %s atendido.\n", pacienteAtendido.nome);
+}
+
 
 int main() {
     Fila filaNormal;
@@ -141,6 +178,8 @@ int main() {
                 scanf("%d", &paciente.idade);
                 printf("Digite o motivo da consulta do paciente: ");
                 scanf(" %[^\n]s", paciente.motivo);
+                printf("Digite o número do consultório: "); 
+                scanf("%d", &paciente.consultorio); 
                 time(&paciente.hora_chegada);
 
                 while(getchar() != '\n');
@@ -161,46 +200,7 @@ int main() {
                 break;
             }
             case 2: {
-                printf("Digite o tipo de fila que deseja atender (n/p/u):");
-
-                char filaEscolhida;
-                scanf(" %c", &filaEscolhida);
-
-                Paciente pacienteAtendido;
-
-                if (filaEscolhida == 'n' || filaEscolhida == 'N')
-                {
-                    pacienteAtendido = removerPaciente(&filaNormal);
-
-   
-                    time(&pacienteAtendido.hora_atendimento_inicio);
-                }
-
-                if (filaEscolhida == 'p' || filaEscolhida == 'P')
-                {
-                    pacienteAtendido = removerPaciente(&filaPrioritaria);
-
-                   
-                    time(&pacienteAtendido.hora_atendimento_inicio);
-                }
-
-                if (filaEscolhida == 'u' || filaEscolhida == 'U')
-                {
-                    pacienteAtendido = removerPaciente(&filaUrgente);
-
-                  
-                    time(&pacienteAtendido.hora_atendimento_inicio);
-                }
-
-              
-                time(&pacienteAtendido.hora_atendimento_fim);
-
-
-                adicionarPaciente(&filaHistorico, pacienteAtendido);
-
-                printf("Paciente atendido:\n");
-                exibirPaciente(pacienteAtendido);
-
+                atenderPaciente(&filaNormal, &filaPrioritaria, &filaUrgente, &filaHistorico);
                 break;
             }
             case 3: {
