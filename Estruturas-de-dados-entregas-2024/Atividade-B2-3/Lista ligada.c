@@ -1,3 +1,14 @@
+/*------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
+/*                         Bruno Leonardo Martinho                        */
+/*                            Prof Veríssimo                              */
+/*                            Atividade-B2-3                              */
+/*         Objetivo: Implementar o Numero "30" no meio de uma Lista       */
+/*                                 Ligada.                                */
+/*                                                                        */
+/*                              Data:27/05/2024                           */
+/*------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
