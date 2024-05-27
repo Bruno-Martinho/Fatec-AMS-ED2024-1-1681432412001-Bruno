@@ -1,3 +1,14 @@
+/*------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
+/*                         Bruno Leonardo Martinho                        */
+/*                            Prof Veríssimo                              */
+/*                            Atividade-B2-3                              */
+/*         Objetivo: Implementar o Numero "30" no meio de outros          */
+/*                                 Em um Array.                           */
+/*                                                                        */
+/*                              Data:27/05/2024                           */
+/*------------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <time.h>
 
