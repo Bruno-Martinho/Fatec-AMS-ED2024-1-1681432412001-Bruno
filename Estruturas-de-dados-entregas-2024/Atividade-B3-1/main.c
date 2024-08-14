@@ -4,7 +4,7 @@
 /*       Objetivo: Calcular o tempo do insertion sort        */
 /*                                                           */
 /*                   Bruno Leonardo Martinho                 */
-/*                       Data:11/08/2024                     */
+/*                       Data:12/08/2024                     */
 /*-----------------------------------------------------------*/
 
 
