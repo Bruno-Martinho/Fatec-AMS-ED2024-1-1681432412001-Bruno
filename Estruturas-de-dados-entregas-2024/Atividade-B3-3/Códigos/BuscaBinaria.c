@@ -1,11 +1,11 @@
 /*------------------------------------------------------------------------*/
 /*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
-/*                           Bruno Martinho                               */
-/*             Objetivo: Busca Binária                                    */
+/*                           Bruno Leonarddo Martinho                     */
+/*             Objetivo: Busca Binária                                    */
 /*             Paradigama: - programação Estruturada                      */
 /*                                                                        */
-/*                             Data:08/09/2024                             */
-/*-------------------------------------------------------------------------*/
+/*                             Data:08/09/2024                            */
+/*------------------------------------------------------------------------*/
 
 #include <stdio.h>
 
