@@ -1,7 +1,5 @@
 # Resultado dos Registros das "Logs" do executável SOSim
 
-## Todos os testes foram realizados com o Tipo de Processo - CPU-Bound;
-
 
 ### Primeiro Teste
 
@@ -37,7 +35,7 @@ Neste Segundo Teste, já não houve o erro com o nome "Page Fault", como ocorrid
 
 ### Terceiro Teste
 
-  - Prioridade; 2 e 4
+  - Prioridade: 2 e 4
   - Limite de Frames: 2
   - Número de Processos: 4
 
@@ -47,3 +45,14 @@ Agora temos um total de 4 (Quatro) processos rodando em nosso programa, porém s
 Notamos que os processos de maior Prioridade assumem o programa, sendo sempre executados, até que por um determinado motivo, ele tenha que parar, e assim fazendo com que os processos de menor Prioridade assuma a responsabilidade de ser executado.
 
 [Log Terceiro Teste](https://github.com/Bruno-Martinho/Fatec-AMS-ED2024-1-1681432412001-Bruno/blob/main/Estruturas-de-dados-entregas-2024/Atividade-Teste_Logs/Logs/Log%20Terceiro%20Teste.txt)
+
+##
+
+### Quarto Teste - Swap de memória
+
+  - Prioridade 1 e 5
+  - Limite de Frames 10
+  - Numero de Processos: 11
+
+Neste caso, foi realizado o teste de Swap de memória, com o tipo de processo em I/O - bound (disco).
+Colocamos diversos processos para rodar, com prioridades, limites de frames e números de processos, com diversos casos. Com isso, o programa nos retornou uma mensagem de "Lista de pags livres menor que 80%", ou seja, foi obrigado a realizar um Swap de memória para continuar a execução.
