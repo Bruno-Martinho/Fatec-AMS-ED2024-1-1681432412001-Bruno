@@ -17,7 +17,7 @@ Para termos um nível de comparação, em aproximadamente 110 processos executad
 
 [Log Primeiro Teste](https://github.com/Bruno-Martinho/Fatec-AMS-ED2024-1-1681432412001-Bruno/blob/main/Estruturas-de-dados-entregas-2024/Atividade-Teste_Logs/Logs/Log%20Primeiro%20Teste.txt)
 
-
+##
 
 ### Segundo Teste
 
@@ -33,7 +33,7 @@ Neste Segundo Teste, já não houve o erro com o nome "Page Fault", como ocorrid
 
 [Log Segundo Teste](https://github.com/Bruno-Martinho/Fatec-AMS-ED2024-1-1681432412001-Bruno/blob/main/Estruturas-de-dados-entregas-2024/Atividade-Teste_Logs/Logs/Log%20Segundo%20Teste.txt)
 
-
+##
 
 ### Terceiro Teste
 
