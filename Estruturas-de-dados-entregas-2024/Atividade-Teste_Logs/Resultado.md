@@ -30,3 +30,4 @@ Ao iniciar o teste, nas Logs, podemos notar ao início que já temos algumas sit
 Como nosso Limite de Frames desse processo foi de 5 (Cinco), então podemos observar que foram alocados "blocos", com o tamanho de 5 (Cinco) espaços na memoria para cada processo criado. Logo após, realizando o inicio da execução dos processos, um em seguida do outro. Todos os processos criado estão com o mesmo nível de prioridade.
 Neste Segundo Teste, já não houve o erro com o nome "Page Fault1", como ocorrido no Primeiro Teste.
 
+[Log Segundo Teste](https://github.com/Bruno-Martinho/Fatec-AMS-ED2024-1-1681432412001-Bruno/blob/main/Estruturas-de-dados-entregas-2024/Atividade-Teste_Logs/Logs/Log%20Segundo%20Teste.txt)
