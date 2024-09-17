@@ -1,0 +1,130 @@
+0 : Inicializando SOsim ...
+4 : SOsim pronto
+28 : Processo 4131081 alocacao de blocos no pagefile
+28 : Processo 4131081 HwPF - Executável0
+28 : Processo 4131081 HwPF - Executável1
+28 : Processo 4131081 HwPF - Executável2
+28 : Processo 4131081 HwPF - Executável3
+28 : Processo 4131081 HwPF - Executável4
+28 : Processo 4131081 criado
+28 : Processo 4131196 alocacao de blocos no pagefile
+28 : Processo 4131196 HwPF - Executável0
+28 : Processo 4131196 HwPF - Executável1
+28 : Processo 4131196 HwPF - Executável2
+28 : Processo 4131196 HwPF - Executável3
+28 : Processo 4131196 HwPF - Executável4
+28 : Processo 4131196 criado
+28 : Processo 4131325 alocacao de blocos no pagefile
+28 : Processo 4131325 HwPF - Executável0
+28 : Processo 4131325 HwPF - Executável1
+28 : Processo 4131325 HwPF - Executável2
+28 : Processo 4131325 HwPF - Executável3
+28 : Processo 4131325 HwPF - Executável4
+28 : Processo 4131325 criado
+29 : Processo 4131081 Pronto -> Exec
+30 : Processo 4131081 Exec -> Pronto por tempo
+31 : Processo 4131196 Pronto -> Exec
+32 : Processo 4131196 Exec -> Pronto por tempo
+33 : Processo 4131325 Pronto -> Exec
+34 : Processo 4131325 Exec -> Pronto por tempo
+35 : Processo 4131081 Pronto -> Exec
+36 : Processo 4131081 Exec -> Pronto por tempo
+37 : Processo 4131196 Pronto -> Exec
+38 : Processo 4131196 Exec -> Pronto por tempo
+39 : Processo 4131325 Pronto -> Exec
+40 : Processo 4131325 Exec -> Pronto por tempo
+41 : Processo 4131081 Pronto -> Exec
+42 : Processo 4131081 Exec -> Pronto por tempo
+43 : Processo 4131196 Pronto -> Exec
+44 : Processo 4131196 Exec -> Pronto por tempo
+45 : Processo 4131325 Pronto -> Exec
+46 : Processo 4131325 Exec -> Pronto por tempo
+47 : Processo 4131081 Pronto -> Exec
+48 : Processo 4131081 Exec -> Pronto por tempo
+49 : Processo 4131196 Pronto -> Exec
+50 : Processo 4131196 Exec -> Pronto por tempo
+51 : Processo 4131325 Pronto -> Exec
+52 : Processo 4131325 Exec -> Pronto por tempo
+53 : Processo 4131081 Pronto -> Exec
+54 : Processo 4131081 Exec -> Pronto por tempo
+55 : Processo 4131196 Pronto -> Exec
+56 : Processo 4131196 Exec -> Pronto por tempo
+57 : Processo 4131325 Pronto -> Exec
+58 : Processo 4131325 Exec -> Pronto por tempo
+59 : Processo 4131081 Pronto -> Exec
+60 : Processo 4131081 Exec -> Pronto por tempo
+61 : Processo 4131196 Pronto -> Exec
+62 : Processo 4131196 Exec -> Pronto por tempo
+63 : Processo 4131325 Pronto -> Exec
+64 : Processo 4131325 Exec -> Pronto por tempo
+65 : Processo 4131081 Pronto -> Exec
+66 : Processo 4131081 Exec -> Pronto por tempo
+67 : Processo 4131196 Pronto -> Exec
+68 : Processo 4131196 Exec -> Pronto por tempo
+69 : Processo 4131325 Pronto -> Exec
+70 : Processo 4131325 Exec -> Pronto por tempo
+71 : Processo 4131081 Pronto -> Exec
+72 : Processo 4131081 Exec -> Pronto por tempo
+73 : Processo 4131196 Pronto -> Exec
+74 : Processo 4131196 Exec -> Pronto por tempo
+75 : Processo 4131325 Pronto -> Exec
+76 : Processo 4131325 Exec -> Pronto por tempo
+77 : Processo 4131081 Pronto -> Exec
+78 : Processo 4131081 Exec -> Pronto por tempo
+79 : Processo 4131196 Pronto -> Exec
+80 : Processo 4131196 Exec -> Pronto por tempo
+81 : Processo 4131325 Pronto -> Exec
+82 : Processo 4131325 Exec -> Pronto por tempo
+83 : Processo 4131081 Pronto -> Exec
+84 : Processo 4131081 Exec -> Pronto por tempo
+85 : Processo 4131196 Pronto -> Exec
+86 : Processo 4131196 Exec -> Pronto por tempo
+87 : Processo 4131325 Pronto -> Exec
+88 : Processo 4131325 Exec -> Pronto por tempo
+89 : Processo 4131081 Pronto -> Exec
+90 : Processo 4131081 Exec -> Pronto por tempo
+91 : Processo 4131196 Pronto -> Exec
+92 : Processo 4131196 Exec -> Pronto por tempo
+93 : Processo 4131325 Pronto -> Exec
+94 : Processo 4131325 Exec -> Pronto por tempo
+95 : Processo 4131081 Pronto -> Exec
+96 : Processo 4131081 Exec -> Pronto por tempo
+97 : Processo 4131196 Pronto -> Exec
+98 : Processo 4131196 Exec -> Pronto por tempo
+99 : Processo 4131325 Pronto -> Exec
+100 : Processo 4131325 Exec -> Pronto por tempo
+101 : Processo 4131081 Pronto -> Exec
+102 : Processo 4131081 Exec -> Pronto por tempo
+103 : Processo 4131196 Pronto -> Exec
+104 : Processo 4131196 Exec -> Pronto por tempo
+105 : Processo 4131325 Pronto -> Exec
+106 : Processo 4131325 Exec -> Pronto por tempo
+107 : Processo 4131081 Pronto -> Exec
+108 : Processo 4131081 Exec -> Pronto por tempo
+109 : Processo 4131196 Pronto -> Exec
+110 : Processo 4131196 Exec -> Pronto por tempo
+111 : Processo 4131325 Pronto -> Exec
+112 : Processo 4131325 Exec -> Pronto por tempo
+113 : Processo 4131081 Pronto -> Exec
+114 : Processo 4131081 Exec -> Pronto por tempo
+115 : Processo 4131196 Pronto -> Exec
+116 : Processo 4131196 Exec -> Pronto por tempo
+117 : Processo 4131325 Pronto -> Exec
+118 : Processo 4131325 Exec -> Pronto por tempo
+119 : Processo 4131081 Pronto -> Exec
+120 : Processo 4131081 Exec -> Pronto por tempo
+121 : Processo 4131196 Pronto -> Exec
+122 : Processo 4131196 Exec -> Pronto por tempo
+123 : Processo 4131325 Pronto -> Exec
+124 : Processo 4131325 Exec -> Pronto por tempo
+125 : Processo 4131081 Pronto -> Exec
+126 : Processo 4131081 Exec -> Pronto por tempo
+127 : Processo 4131196 Pronto -> Exec
+128 : Processo 4131196 Exec -> Pronto por tempo
+129 : Processo 4131325 Pronto -> Exec
+130 : Processo 4131325 Exec -> Pronto por tempo
+131 : Processo 4131081 Pronto -> Exec
+132 : Processo 4131081 Exec -> Pronto por tempo
+133 : Processo 4131196 Pronto -> Exec
+134 : Processo 4131196 Exec -> Pronto por tempo
+135 : Processo 4131325 Pronto -> Exec
