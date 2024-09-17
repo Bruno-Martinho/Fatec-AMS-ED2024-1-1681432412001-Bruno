@@ -1,0 +1,225 @@
+0 : Inicializando SOsim ...
+4 : SOsim pronto
+40 : Processo 5945868 alocacao de blocos no pagefile
+40 : Processo 5945868 HwPF - Executável0
+40 : Processo 5945868 HwPF - Executável1
+40 : Processo 5945868 criado
+41 : Processo 5945985 alocacao de blocos no pagefile
+41 : Processo 5945985 HwPF - Executável0
+41 : Processo 5945985 HwPF - Executável1
+41 : Processo 5945985 criado
+41 : Processo 5945868 Pronto -> Exec
+42 : Processo 5945868 Exec -> Pronto por tempo
+43 : Processo 5945985 Pronto -> Exec
+44 : Processo 5945985 Exec -> Pronto por tempo
+45 : Processo 5945868 Pronto -> Exec
+46 : Processo 5945868 Exec -> Pronto por tempo
+47 : Processo 5945985 Pronto -> Exec
+48 : Processo 5945985 Exec -> Pronto por tempo
+49 : Processo 5945868 Pronto -> Exec
+50 : Processo 5945868 Exec -> Pronto por tempo
+51 : Processo 5945985 Pronto -> Exec
+52 : Processo 5945985 Exec -> Pronto por tempo
+53 : Processo 5945868 Pronto -> Exec
+54 : Processo 5945868 Exec -> Pronto por tempo
+55 : Processo 5945985 Pronto -> Exec
+56 : Processo 5945985 Exec -> Pronto por tempo
+57 : Processo 5945868 Pronto -> Exec
+58 : Processo 5945868 Exec -> Pronto por tempo
+59 : Processo 5945985 Pronto -> Exec
+60 : Processo 5945985 Exec -> Pronto por tempo
+61 : Processo 5945868 Pronto -> Exec
+62 : Processo 5945868 Exec -> Pronto por tempo
+63 : Processo 5945985 Pronto -> Exec
+64 : Processo 5945985 Exec -> Pronto por tempo
+65 : Processo 5945868 Pronto -> Exec
+66 : Processo 5945868 Exec -> Pronto por tempo
+67 : Processo 5945985 Pronto -> Exec
+68 : Processo 5945985 Exec -> Pronto por tempo
+69 : Processo 5945868 Pronto -> Exec
+70 : Processo 5945868 Exec -> Pronto por tempo
+71 : Processo 5945985 Pronto -> Exec
+72 : Processo 5945985 Exec -> Pronto por tempo
+73 : Processo 5945868 Pronto -> Exec
+74 : Processo 5945868 Exec -> Pronto por tempo
+75 : Processo 5945985 Pronto -> Exec
+76 : Processo 5945985 Exec -> Pronto por tempo
+77 : Processo 5945868 Pronto -> Exec
+78 : Processo 5945868 Exec -> Pronto por tempo
+79 : Processo 5945985 Pronto -> Exec
+80 : Processo 5945985 Exec -> Pronto por tempo
+81 : Processo 5945868 Pronto -> Exec
+82 : Processo 5945868 Exec -> Pronto por tempo
+83 : Processo 5945985 Pronto -> Exec
+83 : Processo 28559 alocacao de blocos no pagefile
+83 : Processo 28559 HwPF - Executável0
+83 : Processo 28559 HwPF - Executável1
+83 : Processo 28559 criado
+83 : Processo 28673 alocacao de blocos no pagefile
+83 : Processo 28673 HwPF - Executável0
+83 : Processo 28673 HwPF - Executável1
+83 : Processo 28673 criado
+84 : Processo 5945985 Exec -> Pronto por tempo
+85 : Processo 28559 Pronto -> Exec
+86 : Processo 28559 Exec -> Pronto por tempo
+87 : Processo 28673 Pronto -> Exec
+88 : Processo 28673 Exec -> Pronto por tempo
+89 : Processo 28559 Pronto -> Exec
+90 : Processo 28559 Exec -> Pronto por tempo
+91 : Processo 28673 Pronto -> Exec
+92 : Processo 28673 Exec -> Pronto por tempo
+93 : Processo 28559 Pronto -> Exec
+94 : Processo 28559 Exec -> Pronto por tempo
+95 : Processo 28673 Pronto -> Exec
+96 : Processo 28673 Exec -> Pronto por tempo
+97 : Processo 28559 Pronto -> Exec
+98 : Processo 28559 Exec -> Pronto por tempo
+99 : Processo 28673 Pronto -> Exec
+100 : Processo 28673 Exec -> Pronto por tempo
+101 : Processo 28559 Pronto -> Exec
+102 : Processo 28559 Exec -> Pronto por tempo
+103 : Processo 28673 Pronto -> Exec
+104 : Processo 28673 Exec -> Pronto por tempo
+105 : Processo 28559 Pronto -> Exec
+106 : Processo 28559 Exec -> Pronto por tempo
+107 : Processo 28673 Pronto -> Exec
+108 : Processo 28673 Exec -> Pronto por tempo
+109 : Processo 28559 Pronto -> Exec
+110 : Processo 28559 Exec -> Pronto por tempo
+111 : Processo 28673 Pronto -> Exec
+112 : Processo 28673 Exec -> Pronto por tempo
+113 : Processo 28559 Pronto -> Exec
+114 : Processo 28559 Exec -> Pronto por tempo
+115 : Processo 28673 Pronto -> Exec
+116 : Processo 28673 Exec -> Pronto por tempo
+117 : Processo 28559 Pronto -> Exec
+118 : Processo 28559 Exec -> Pronto por tempo
+119 : Processo 28673 Pronto -> Exec
+120 : Processo 28673 Exec -> Pronto por tempo
+121 : Processo 28559 Pronto -> Exec
+122 : Processo 28559 Exec -> Pronto por tempo
+123 : Processo 28673 Pronto -> Exec
+124 : Processo 28673 Exec -> Pronto por tempo
+125 : Processo 28559 Pronto -> Exec
+126 : Processo 28559 Exec -> Pronto por tempo
+127 : Processo 28673 Pronto -> Exec
+128 : Processo 28673 Exec -> Pronto por tempo
+129 : Processo 28559 Pronto -> Exec
+130 : Processo 28559 Exec -> Pronto por tempo
+131 : Processo 28673 Pronto -> Exec
+132 : Processo 28673 Exec -> Pronto por tempo
+133 : Processo 28559 Pronto -> Exec
+134 : Processo 28559 Exec -> Pronto por tempo
+135 : Processo 28673 Pronto -> Exec
+136 : Processo 28673 Exec -> Pronto por tempo
+137 : Processo 28559 Pronto -> Exec
+138 : Processo 28559 Exec -> Pronto por tempo
+139 : Processo 28673 Pronto -> Exec
+140 : Processo 28673 Exec -> Pronto por tempo
+141 : Processo 28559 Pronto -> Exec
+142 : Processo 28559 Exec -> Pronto por tempo
+143 : Processo 28673 Pronto -> Exec
+144 : Processo 28673 Exec -> Pronto por tempo
+145 : Processo 28559 Pronto -> Exec
+146 : Processo 28559 Exec -> Pronto por tempo
+147 : Processo 28673 Pronto -> Exec
+148 : Processo 28673 Exec -> Pronto por tempo
+149 : Processo 28559 Pronto -> Exec
+150 : Processo 28559 Exec -> Page Fault2
+151 : Processo 28673 Pronto -> Exec
+152 : Processo 28673 Exec -> Page Fault2
+153 : Processo 5945868 Pronto -> Exec
+154 : Processo 5945868 Exec -> Pronto por tempo
+155 : Processo 5945985 Pronto -> Exec
+156 : Processo 5945985 Exec -> Pronto por tempo
+157 : Processo 5945868 Pronto -> Exec
+158 : Processo 5945868 Exec -> Pronto por tempo
+159 : Processo 5945985 Pronto -> Exec
+160 : Processo 5945985 Exec -> Pronto por tempo
+160 : Processo 28559 HwPF - Executável2
+161 : Processo 5945868 Pronto -> Exec
+162 : Processo 5945868 Exec -> Pronto por tempo
+163 : Processo 28559 Pronto -> Exec
+164 : Processo 28559 Exec -> Pronto por tempo
+165 : Processo 28559 Pronto -> Exec
+166 : Processo 28559 Exec -> Pronto por tempo
+167 : Processo 28559 Pronto -> Exec
+168 : Processo 28559 Exec -> Pronto por tempo
+169 : Processo 28559 Pronto -> Exec
+170 : Processo 28559 Exec -> Pronto por tempo
+171 : Processo 28559 Pronto -> Exec
+172 : Processo 28559 Exec -> Pronto por tempo
+172 : Processo 28673 HwPF - Executável2
+173 : Processo 28559 Pronto -> Exec
+174 : Processo 28559 Exec -> Pronto por tempo
+175 : Processo 28673 Pronto -> Exec
+176 : Processo 28673 Exec -> Pronto por tempo
+177 : Processo 28559 Pronto -> Exec
+178 : Processo 28559 Exec -> Pronto por tempo
+179 : Processo 28673 Pronto -> Exec
+180 : Processo 28673 Exec -> Pronto por tempo
+181 : Processo 28559 Pronto -> Exec
+182 : Processo 28559 Exec -> Pronto por tempo
+183 : Processo 28673 Pronto -> Exec
+184 : Processo 28673 Exec -> Pronto por tempo
+185 : Processo 28559 Pronto -> Exec
+186 : Processo 28559 Exec -> Page Fault3
+187 : Processo 28673 Pronto -> Exec
+188 : Processo 28673 Exec -> Pronto por tempo
+189 : Processo 28673 Pronto -> Exec
+190 : Processo 28673 Exec -> Pronto por tempo
+191 : Processo 28673 Pronto -> Exec
+192 : Processo 28673 Exec -> Pronto por tempo
+193 : Processo 28673 Pronto -> Exec
+194 : Processo 28673 Exec -> Pronto por tempo
+195 : Processo 28673 Pronto -> Exec
+196 : Processo 28673 Exec -> Pronto por tempo
+197 : Processo 28673 Pronto -> Exec
+197 : Processo 28559 HwPF - Executável3
+198 : Processo 28673 Exec -> Page Fault3
+199 : Processo 28559 Pronto -> Exec
+200 : Processo 28559 Exec -> Pronto por tempo
+201 : Processo 28559 Pronto -> Exec
+202 : Processo 28559 Exec -> Pronto por tempo
+203 : Processo 28559 Pronto -> Exec
+204 : Processo 28559 Exec -> Pronto por tempo
+205 : Processo 28559 Pronto -> Exec
+206 : Processo 28559 Exec -> Pronto por tempo
+207 : Processo 28559 Pronto -> Exec
+208 : Processo 28559 Exec -> Pronto por tempo
+209 : Processo 28559 Pronto -> Exec
+209 : Processo 28673 HwPF - Executável3
+210 : Processo 28559 Exec -> Pronto por tempo
+211 : Processo 28673 Pronto -> Exec
+212 : Processo 28673 Exec -> Pronto por tempo
+213 : Processo 28559 Pronto -> Exec
+214 : Processo 28559 Exec -> Pronto por tempo
+215 : Processo 28673 Pronto -> Exec
+216 : Processo 28673 Exec -> Pronto por tempo
+217 : Processo 28559 Pronto -> Exec
+218 : Processo 28559 Exec -> Pronto por tempo
+219 : Processo 28673 Pronto -> Exec
+220 : Processo 28673 Exec -> Pronto por tempo
+221 : Processo 28559 Pronto -> Exec
+222 : Processo 28559 Exec -> Page Fault4
+223 : Processo 28673 Pronto -> Exec
+224 : Processo 28673 Exec -> Pronto por tempo
+225 : Processo 28673 Pronto -> Exec
+226 : Processo 28673 Exec -> Pronto por tempo
+227 : Processo 28673 Pronto -> Exec
+228 : Processo 28673 Exec -> Pronto por tempo
+229 : Processo 28673 Pronto -> Exec
+230 : Processo 28673 Exec -> Pronto por tempo
+231 : Processo 28673 Pronto -> Exec
+232 : Processo 28673 Exec -> Pronto por tempo
+233 : Processo 28673 Pronto -> Exec
+233 : Processo 28559 HwPF - Executável4
+234 : Processo 28673 Exec -> Page Fault4
+235 : Processo 28559 Pronto -> Exec
+236 : Processo 28559 Exec -> Pronto por tempo
+237 : Processo 28559 Pronto -> Exec
+238 : Processo 28559 Exec -> Pronto por tempo
+239 : Processo 28559 Pronto -> Exec
+240 : Processo 28559 Exec -> Pronto por tempo
+241 : Processo 28559 Pronto -> Exec
+242 : Processo 28559 Exec -> Pronto por tempo
