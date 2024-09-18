@@ -53,7 +53,7 @@ Notamos que os processos de maior Prioridade assumem o programa, sendo sempre ex
 
   - Prioridade 1 e 5
   - Limite de Frames 10
-  - Numero de Processos: 11
+  - Número de Processos: 11
 
 Neste caso, foi realizado o teste de Swap de memória, com o tipo de processo em I/O - bound (disco). Para uma explicação mais simplificada, o Swap de memória é uma técnica de gestão de memória que permite a troca de dados entre a memória RAM, e um espaço de armazenamento secundário (Armazenamento interno, por exemplo).
 Seguindo com os testes, colocamos diversos processos para rodar, com prioridades, limites de frames e números de processos, com diversos casos. Com isso, o programa nos retornou uma mensagem de "Lista de pags livres menor que 80%", ou seja, foi obrigado a realizar um Swap de memória para continuar a execução.
