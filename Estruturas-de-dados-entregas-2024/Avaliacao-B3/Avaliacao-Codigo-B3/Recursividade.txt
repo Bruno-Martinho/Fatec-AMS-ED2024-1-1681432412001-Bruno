@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------------*/
 /*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
-/*                   Giovanni Cicero e Bruno Martinho              	  */
-/*             Objetivo: Recursividade                                    */
+/*                   Giovanni Cicero e Bruno Martinho              	      */
+/*                     Objetivo: Recursividade                            */
 /*             Paradigama: - programação Estruturada                      */
 /*                                                                        */
-/*                                                         Data:20/09/2024*/
+/*                          Data:20/09/2024                                */
 /*-------------------------------------------------------------------------*/
 
 #include <stdio.h>
