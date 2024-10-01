@@ -1,0 +1,56 @@
+/*---------------------------------------------------------------*/
+/*          FATEC-São Caetano do Sul Estrutura de Dados          */
+/*                        Prof Veríssimo                         */
+/*               CONTINUAÇÃO Atividade B3-4                      */
+/*             Objetivo: Transformar o código em ITERAÇÃO        */
+/*              Developers: Bianca Soares & Ruan Defavari        */
+/*                        Data:23/09/2024                        */
+/*---------------------------------------------------------------*/
+
+
+#include <stdio.h>
+#include <math.h>
+ 
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_GREEN   "\x1b[32m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+ 
+//Verificar se um número é primo
+int is_prime(int num) {
+    if (num < 2) {
+        return 0;
+    }
+    for (int i = 2; i <= sqrt(num); i++) {
+        if (num % i == 0) {
+            return 0; 
+        }
+    }
+    return 1; 
+}
+ 
+int main() {
+    
+    int data_stream[] = {2, 3, 4, 5, 16, 17, 18, 19, 20};
+    int size = sizeof(data_stream) / sizeof(data_stream[0]);
+    int primes[size], non_primes[size];
+    int prime_count, non_prime_count;
+ 
+    // Processamento dos dados
+    for (int i = 0; i < size; i++) {
+        int data_packet = data_stream[i];
+ 
+        // Verifica se o número é primo ou não e armazena nos arrays correspondentes
+        if (is_prime(data_packet)) {
+            primes[prime_count] = data_packet;
+            prime_count++;
+            printf(ANSI_COLOR_GREEN "O número %d é primo.\n" ANSI_COLOR_RESET, data_packet);
+        } else {
+            non_primes[non_prime_count] = data_packet;
+            non_prime_count++;
+            printf(ANSI_COLOR_RED "O número %d não é primo.\n" ANSI_COLOR_RESET, data_packet);
+        }
+    }
+ 
+    printf("\nTodos os pacotes de dados foram processados.\n");
+    return 0;
+}

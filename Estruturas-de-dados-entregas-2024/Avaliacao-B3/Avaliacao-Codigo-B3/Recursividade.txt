@@ -1,0 +1,54 @@
+/*------------------------------------------------------------------------*/
+/*   FATEC-São Caetano do Sul                 Estrutura de Dados          */
+/*                   Giovanni Cicero e Bruno Martinho              	  */
+/*             Objetivo: Recursividade                                    */
+/*             Paradigama: - programação Estruturada                      */
+/*                                                                        */
+/*                                                         Data:20/09/2024*/
+/*-------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <math.h>
+
+//verificar se um número é primo
+bool is_prime_recursive(int num, int divisor) {
+    if (num < 2) {
+        return false;
+    }
+    if (divisor > sqrt(num)) {
+        return true;
+    }
+    if (num % divisor == 0) {
+        return false;
+    }
+    return is_prime_recursive(num, divisor + 1);
+}
+
+//verifica a primalidade de um número
+bool is_prime(int num) {
+    return is_prime_recursive(num, 2);
+}
+
+//processa uma transmissão de dados
+void process_data_stream(int data_stream[], int size) {
+    for (int i = 0; i < size; i++) {
+        int number = data_stream[i];
+        if (is_prime(number)) {
+            printf("%d é primo.\n", number);
+        } else {
+            printf("%d não é primo.\n", number);
+        }
+    }
+}
+
+int main() {
+    // Exemplo de fluxo de dados
+    int data_stream[] = {2, 3, 4, 5, 16, 17, 18, 19, 20};
+    int size = sizeof(data_stream) / sizeof(data_stream[0]);
+
+    // Processa o fluxo de dados
+    process_data_stream(data_stream, size);
+
+    return 0;
+}
